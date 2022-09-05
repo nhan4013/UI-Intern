@@ -5,18 +5,28 @@
 body{
     font-family: "Lexend";
     min-height: 100vh; 
-    display: grid;
-    grid-template-rows: auto auto auto auto;
+    font-size: 15px;
+    line-height: 18px;
+    color: #444444;
 }
 
 
 .title{
-    margin: 10px 20px 20px 80px;
+    margin: 40px 20px 20px 80px;
 
 }
 
+.title p img {
+    padding: 2px;
+}
 .email {
     padding: 10px 20px 20px 80px;
+}
+.email p:nth-child(4){
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 38px;
+    color: #F8993F;
 }
 .email h3{
     font-style: normal;
@@ -47,7 +57,65 @@ body{
     border: none;
     cursor: pointer;
 }
-
+.ana{
+    padding-top: 1px;
+    background: #F7F7F7;
+    border-radius: 10px;
+    margin: 10px;
+}
+.ana>p{
+    margin-left: 80px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    
+}
+.ana div{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    font-weight: 500;
+    
+}
+.ana div p:nth-child(odd){
+    margin-left: 80px;
+}
+.ana div p:nth-child(even){
+    margin-right: 80px;
+}
+.purchase{
+    padding-top: 1px;
+    background: #F7F7F7;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.purchase>p:nth-child(1){
+    margin-left: 80px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+}
+.purchase>p:nth-child(2){
+    margin-left: 80px;
+    color: #111111;
+}
+.purchase div{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: space-between;
+}
+.purchase div p:nth-child(odd){
+    margin-left: 80px;
+    margin-right: 40px;
+    font-weight: 500;
+    color: #111111;
+}
+.purchase div p:nth-child(even){
+    color: #F8993F;
+    font-weight: 500;
+}
 .network{
     padding: 65px 20px 20px 80px;
 }
@@ -79,12 +147,13 @@ body{
     margin-right: 70px;
 }
 
-footer{
-    padding-top: 229px;
-    background: #444444;
-    border-radius: 10px;
-    margin: 10px;
-    
+.information{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.information p:nth-child(odd){
+    margin-right: 40px;
 }
 
 .product{
@@ -121,17 +190,30 @@ footer{
     margin: 36px;
 }
 
+footer{
+    background: #444444;
+    border-radius: 10px;
+    margin: 10px;
+    color: #B7B7B7;
+    
+}
+
 footer>h5{
-   margin-top: -187px;
-   margin-left: 25px;
+   padding-top: 25px;
+   margin-left: 75px;
+   font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+   color: #FFFFFF;
 }
 
 footer>p{
-    margin-left: 25px;
+    margin-left: 75px;
 }
 
 footer>aside{
     display: flex;
+    margin-left: 50px;
 }
 
 aside span{
