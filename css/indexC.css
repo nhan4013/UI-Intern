@@ -183,7 +183,7 @@ body{
     margin-left: 70px;
 }
 .total .total1 p:nth-child(even){
-    margin-left: 720px;
+    margin-left: 1330px;
     font-weight: 600;
 }
 .total .total3{
@@ -194,7 +194,7 @@ body{
     margin-left: 70px;
 }
 .total .total3 p:nth-child(2){
-    margin-left: 720px;
+    margin-left: 1330px;
     color: #D31F20;
     font-style: normal;
     font-weight: 600;
